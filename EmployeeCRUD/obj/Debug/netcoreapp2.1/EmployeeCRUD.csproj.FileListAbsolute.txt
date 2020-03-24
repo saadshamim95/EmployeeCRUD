@@ -1,0 +1,16 @@
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.deps.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.runtimeconfig.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.runtimeconfig.dev.json
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.dll
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\EmployeeCRUD.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csprojAssemblyReference.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorAssemblyInfo.cs
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.AssemblyInfoInputs.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.AssemblyInfo.cs
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorTargetAssemblyInfo.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.dll
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.pdb
