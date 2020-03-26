@@ -4447,6 +4447,7 @@
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.0",
           "Model": "1.0.0"
         },
         "compile": {

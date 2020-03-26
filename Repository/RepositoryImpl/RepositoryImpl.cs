@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using Microsoft.Extensions.Configuration;
+using Model;
 using Repository.IRepos;
 using System;
 using System.Collections.Generic;
@@ -8,6 +9,13 @@ namespace Repository.RepositoryImpl
 {
     public class RepositoryImpl : IRepository
     {
+        private readonly IConfiguration configuration;
+
+        public RepositoryImpl(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
+
         public void AddEmployee(Employee employee)
         {
             throw new NotImplementedException();

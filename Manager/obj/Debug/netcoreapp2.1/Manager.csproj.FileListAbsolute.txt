@@ -5,3 +5,6 @@ C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\bin\Debug\netcoreapp2.1\M
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfoInputs.cache
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.AssemblyInfo.cs
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.csprojAssemblyReference.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\bin\Debug\netcoreapp2.1\Manager.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.dll
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.pdb

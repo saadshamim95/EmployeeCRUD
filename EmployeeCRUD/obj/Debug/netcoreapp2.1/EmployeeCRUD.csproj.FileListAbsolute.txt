@@ -14,3 +14,8 @@ C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.RazorTargetAssemblyInfo.cache
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.dll
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\EmployeeCRUD\obj\Debug\netcoreapp2.1\EmployeeCRUD.csproj.CopyComplete
