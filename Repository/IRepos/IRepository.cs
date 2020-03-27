@@ -2,14 +2,15 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository.IRepos
 {
     public interface IRepository
     {
-        void AddEmployee(Employee employee);
-        void DeleteEmployee(int id);
-        void UpdateEmployee(Employee employee, int id);
+        Task<int> AddEmployee(Employee employee);
+        Task<int> DeleteEmployee(int id);
+        Task<int> UpdateEmployee(Employee employee);
         IEnumerable<Employee> GetAllEmployees();
         Employee GetEmployee(int id);
     }

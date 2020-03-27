@@ -1,44 +1,55 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Microsoft.EntityFrameworkCore;
 using Model;
+using Repository.Context;
 using Repository.IRepos;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace Repository.RepositoryImpl
 {
     public class RepositoryImpl : IRepository
     {
-        private readonly IConfiguration configuration;
+        private readonly UserDbContext userDbContext;
 
-        public RepositoryImpl(IConfiguration configuration)
+        public RepositoryImpl(UserDbContext userDbContext)
         {
-            this.configuration = configuration;
+            this.userDbContext = userDbContext;
+        }
+        
+        public Task<int> AddEmployee(Employee employee)
+        {
+            this.userDbContext.Employees.Add(employee);
+            var result = this.userDbContext.SaveChangesAsync();
+            return result;
         }
 
-        public void AddEmployee(Employee employee)
+        public Task<int> DeleteEmployee(int id)
         {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteEmployee(int id)
-        {
-            throw new NotImplementedException();
+            Employee item = this.userDbContext.Employees.Find(id);
+            this.userDbContext.Remove(item);
+            var result = this.userDbContext.SaveChangesAsync();
+            return result;
         }
 
         public IEnumerable<Employee> GetAllEmployees()
         {
-            throw new NotImplementedException();
+            return this.userDbContext.Employees;
         }
 
         public Employee GetEmployee(int id)
         {
-            throw new NotImplementedException();
+            var result = this.userDbContext.Employees.Find(id);
+            return result;
         }
 
-        public void UpdateEmployee(Employee employee, int id)
+        public Task<int> UpdateEmployee(Employee employeeChanges)
         {
-            throw new NotImplementedException();
+            var employee = this.userDbContext.Employees.Attach(employeeChanges);
+            employee.State = EntityState.Modified;
+            var result = this.userDbContext.SaveChangesAsync();
+            return result;
         }
     }
 }

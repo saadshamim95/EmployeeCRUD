@@ -32,7 +32,6 @@ namespace EmployeeCRUD
         {
             services.AddDbContextPool<UserDbContext>(options => options.UseSqlServer(this.configuration.GetConnectionString("UserDbConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddSingleton<IConfiguration>(this.configuration);
             services.AddTransient<IRepository, RepositoryImpl>();
 
             services.AddSwaggerGen(c =>
