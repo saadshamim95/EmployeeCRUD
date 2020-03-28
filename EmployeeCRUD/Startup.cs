@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Manager.Interface;
+using Manager.ManagerImpl;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,6 +35,7 @@ namespace EmployeeCRUD
             services.AddDbContextPool<UserDbContext>(options => options.UseSqlServer(this.configuration.GetConnectionString("UserDbConnection")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddTransient<IRepository, RepositoryImpl>();
+            services.AddTransient<IManager, ManagerImpl>();
 
             services.AddSwaggerGen(c =>
             {
