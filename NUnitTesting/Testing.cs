@@ -182,5 +182,21 @@ namespace NUnitTesting
             bool result = kilogram.Equals(new Kilogram());
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void GivenOneGram_WhenCompare_WithOneGram_ReturnEqual()
+        {
+            WeightConversion weightConversion = new WeightConversion("Gram", 1);
+            double actual = weightConversion.ConvertToGram();
+            Assert.AreEqual(1, actual);
+        }
+
+        [Test]
+        public void GivenOneKilogram_WhenCompare_WithThousandGram_ReturnEqual()
+        {
+            WeightConversion weightConversion = new WeightConversion("Kilogram", 1);
+            double actual = weightConversion.ConvertToGram();
+            Assert.AreEqual(1000, actual);
+        }
     }
 }
