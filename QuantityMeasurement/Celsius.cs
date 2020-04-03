@@ -16,5 +16,20 @@ namespace QuantityMeasurement
     /// </summary>
     public class Celsius
     {
+        private readonly double celsius;
+
+        public Celsius()
+        {
+        }
+
+        public Celsius(double celsius)
+        {
+            this.celsius = celsius;
+        }
+
+        public double CheckForEqual()
+        {
+            return this.celsius;
+        }
     }
 }

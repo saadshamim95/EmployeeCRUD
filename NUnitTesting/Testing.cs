@@ -214,5 +214,13 @@ namespace NUnitTesting
             double actual = weightConversion.ConvertToGram();
             Assert.AreNotEqual(2000, actual);
         }
+
+        [Test]
+        public void GivenZeroCelsius_WhenAnalyze_ReturnEqual()
+        {
+            Celsius celsius = new Celsius(0);
+            double actual = celsius.CheckForEqual();
+            Assert.AreEqual(0, actual);
+        }
     }
 }
