@@ -134,5 +134,13 @@ namespace NUnitTesting
             bool result = gram.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_GramFor_ReferenceCheck()
+        {
+            Gram gram = new Gram();
+            bool result = gram.Equals(gram);
+            Assert.IsTrue(result);
+        }
     }
 }
