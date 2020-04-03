@@ -46,5 +46,13 @@ namespace NUnitTesting
             bool result = feet.Equals(feet);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_FeetFor_TypeCheck()
+        {
+            Feet feet = new Feet();
+            bool result = feet.Equals(new Feet());
+            Assert.IsTrue(result);
+        }
     }
 }
