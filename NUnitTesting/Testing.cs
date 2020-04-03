@@ -94,5 +94,13 @@ namespace NUnitTesting
             double actual = lengthConversion.ConvertToFeet();
             Assert.AreEqual(1, actual);
         }
+
+        [Test]
+        public void GivenOneFeet_WhenCompare_WithTwelveInch_ReturnEqual()
+        {
+            LengthConversion lengthConversion = new LengthConversion("Feet", 1);
+            double actual = lengthConversion.ConvertToInch();
+            Assert.AreEqual(12, actual);
+        }
     }
 }

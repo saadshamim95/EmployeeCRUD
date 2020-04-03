@@ -38,5 +38,15 @@ namespace QuantityMeasurement
 
             return default;
         }
+
+        public double ConvertToInch()
+        {
+            if (this.type == "Feet")
+            {
+                return this.value * 12;
+            }
+
+            return default;
+        }
     }
 }
