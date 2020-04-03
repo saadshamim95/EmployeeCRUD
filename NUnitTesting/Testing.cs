@@ -150,5 +150,21 @@ namespace NUnitTesting
             bool result = gram.Equals(new Gram());
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void GivenZeroKilogram_WhenAnalyze_ReturnEqual()
+        {
+            Kilogram kilogram = new Kilogram(0);
+            double actual = kilogram.CheckForEqual();
+            Assert.AreEqual(0, actual);
+        }
+
+        [Test]
+        public void Testing_KilogramFor_NullCheck()
+        {
+            Kilogram kilogram = new Kilogram();
+            bool result = kilogram.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }

@@ -16,5 +16,28 @@ namespace QuantityMeasurement
     /// </summary>
     public class Kilogram
     {
+        private readonly double kilogram;
+
+        public Kilogram()
+        {
+        }
+
+        public Kilogram(double kilogram)
+        {
+            this.kilogram = kilogram;
+        }
+
+        public double CheckForEqual()
+        {
+            return this.kilogram;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return true;
+
+            return false;
+        }
     }
 }
