@@ -166,5 +166,13 @@ namespace NUnitTesting
             bool result = kilogram.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_KilogramFor_ReferenceCheck()
+        {
+            Kilogram kilogram = new Kilogram();
+            bool result = kilogram.Equals(kilogram);
+            Assert.IsTrue(result);
+        }
     }
 }
