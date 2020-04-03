@@ -278,5 +278,13 @@ namespace NUnitTesting
             bool result = fahreheit.Equals(new Fahreheit());
             Assert.IsTrue(result);
         }
+
+        //[Test]
+        //public void GivenOneCelsius_WhenCompare_WithOneCelsius_ReturnEqual()
+        //{
+        //    WeightConversion weightConversion = new WeightConversion("Gram", 1);
+        //    double actual = weightConversion.ConvertToGram();
+        //    Assert.AreEqual(1, actual);
+        //}
     }
 }
