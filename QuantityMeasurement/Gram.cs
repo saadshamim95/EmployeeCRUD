@@ -13,5 +13,20 @@ namespace QuantityMeasurement
 
     public class Gram
     {
+        private readonly double gram;
+
+        public Gram()
+        {
+        }
+
+        public Gram(double gram)
+        {
+            this.gram = gram;
+        }
+
+        public double CheckForEqual()
+        {
+            return this.gram;
+        }
     }
 }

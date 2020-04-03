@@ -118,5 +118,13 @@ namespace NUnitTesting
             double actual = lengthConversion.ConvertToInch();
             Assert.AreNotEqual(24, actual);
         }
+
+        [Test]
+        public void GivenZeroGram_WhenAnalyze_ReturnEqual()
+        {
+            Gram gram = new Gram(0);
+            double actual = gram.CheckForEqual();
+            Assert.AreEqual(0, actual);
+        }
     }
 }
