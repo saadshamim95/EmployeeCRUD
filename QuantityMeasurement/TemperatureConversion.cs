@@ -13,5 +13,22 @@ namespace QuantityMeasurement
 
     public class TemperatureConversion
     {
+        private readonly string type;
+        private double value;
+
+        public TemperatureConversion()
+        {
+        }
+
+        public TemperatureConversion(string type, double value)
+        {
+            this.type = type;
+            this.value = value;
+        }
+
+        public double ConvertToCelsius()
+        {
+            return this.value;
+        }
     }
 }

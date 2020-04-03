@@ -279,12 +279,12 @@ namespace NUnitTesting
             Assert.IsTrue(result);
         }
 
-        //[Test]
-        //public void GivenOneCelsius_WhenCompare_WithOneCelsius_ReturnEqual()
-        //{
-        //    WeightConversion weightConversion = new WeightConversion("Gram", 1);
-        //    double actual = weightConversion.ConvertToGram();
-        //    Assert.AreEqual(1, actual);
-        //}
+        [Test]
+        public void GivenOneCelsius_WhenCompare_WithOneCelsius_ReturnEqual()
+        {
+            TemperatureConversion temperatureConversion = new TemperatureConversion("Celsius", 1);
+            double actual = temperatureConversion.ConvertToCelsius();
+            Assert.AreEqual(1, actual);
+        }
     }
 }
