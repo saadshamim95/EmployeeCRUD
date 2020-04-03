@@ -13,5 +13,20 @@ namespace QuantityMeasurement
 
     public class Fahreheit
     {
+        private readonly double fahrenheit;
+
+        public Fahreheit()
+        {
+        }
+
+        public Fahreheit(double fahrenheit)
+        {
+            this.fahrenheit = fahrenheit;
+        }
+
+        public double CheckForEqual()
+        {
+            return this.fahrenheit;
+        }
     }
 }

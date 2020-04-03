@@ -246,5 +246,13 @@ namespace NUnitTesting
             bool result = celsius.Equals(new Celsius());
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void GivenZeroFahrenheit_WhenAnalyze_ReturnEqual()
+        {
+            Fahreheit fahreheit = new Fahreheit(0);
+            double actual = fahreheit.CheckForEqual();
+            Assert.AreEqual(0, actual);
+        }
     }
 }
