@@ -30,5 +30,13 @@ namespace NUnitTesting
             double actual = feet.CheckForEqual();
             Assert.AreEqual(0, actual);
         }
+
+        [Test]
+        public void Testing_FeetFor_NullCheck()
+        {
+            Feet feet = new Feet();
+            bool result = feet.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
