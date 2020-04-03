@@ -7,6 +7,8 @@
 
 namespace QuantityMeasurement
 {
+    using System;
+
     /// <summary>
     /// Class Inch
     /// </summary>
@@ -26,6 +28,14 @@ namespace QuantityMeasurement
         public double CheckForEqual()
         {
             return this.inch;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if ((obj == null) || Object.ReferenceEquals(this, obj))
+                return true;
+
+            return false;
         }
     }
 }

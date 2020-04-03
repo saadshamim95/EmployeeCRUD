@@ -62,5 +62,21 @@ namespace NUnitTesting
             double actual = inch.CheckForEqual();
             Assert.AreEqual(0, actual);
         }
+
+        [Test]
+        public void Testing_InchFor_NullCheck()
+        {
+            Inch inch = new Inch();
+            bool result = inch.Equals(null);
+            Assert.IsTrue(result);
+        }
+
+        [Test]
+        public void Testing_InchFor_ReferenceCheck()
+        {
+            Inch inch = new Inch();
+            bool result = inch.Equals(inch);
+            Assert.IsTrue(result);
+        }
     }
 }
