@@ -206,5 +206,13 @@ namespace NUnitTesting
             double actual = weightConversion.ConvertToGram();
             Assert.AreNotEqual(2, actual);
         }
+
+        [Test]
+        public void GivenOneKilogram_WhenCompare_WithTwoThousandGram_ReturnNotEqual()
+        {
+            WeightConversion weightConversion = new WeightConversion("Kilogram", 1);
+            double actual = weightConversion.ConvertToGram();
+            Assert.AreNotEqual(2000, actual);
+        }
     }
 }
