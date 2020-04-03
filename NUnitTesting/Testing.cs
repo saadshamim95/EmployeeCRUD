@@ -230,5 +230,13 @@ namespace NUnitTesting
             bool result = celsius.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_CelsiusFor_ReferenceCheck()
+        {
+            Celsius celsius = new Celsius();
+            bool result = celsius.Equals(celsius);
+            Assert.IsTrue(result);
+        }
     }
 }
