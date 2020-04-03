@@ -295,5 +295,13 @@ namespace NUnitTesting
             double actual = Math.Round(temperatureConversion.ConvertToFahrenheit(), 1);
             Assert.AreEqual(33.8, actual);
         }
+
+        [Test]
+        public void GivenOneCelsius_WhenCompare_WithTwoCelsius_ReturnNotEqual()
+        {
+            TemperatureConversion temperatureConversion = new TemperatureConversion("Celsius", 1);
+            double actual = temperatureConversion.ConvertToCelsius();
+            Assert.AreNotEqual(2, actual);
+        }
     }
 }
