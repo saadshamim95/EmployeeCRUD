@@ -142,5 +142,13 @@ namespace NUnitTesting
             bool result = gram.Equals(gram);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_GramFor_TypeCheck()
+        {
+            Gram gram = new Gram();
+            bool result = gram.Equals(new Gram());
+            Assert.IsTrue(result);
+        }
     }
 }
