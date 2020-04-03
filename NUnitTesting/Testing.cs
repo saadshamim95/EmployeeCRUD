@@ -198,5 +198,13 @@ namespace NUnitTesting
             double actual = weightConversion.ConvertToGram();
             Assert.AreEqual(1000, actual);
         }
+
+        [Test]
+        public void GivenOneGram_WhenCompare_WithTwoGram_ReturnNotEqual()
+        {
+            WeightConversion weightConversion = new WeightConversion("Gram", 1);
+            double actual = weightConversion.ConvertToGram();
+            Assert.AreNotEqual(2, actual);
+        }
     }
 }
