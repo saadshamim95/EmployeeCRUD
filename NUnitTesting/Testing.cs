@@ -22,10 +22,16 @@ namespace NUnitTesting
         {
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// Test Case 1
         [Test]
-        public void Test1()
+        public void GivenZeroFeet_WhenAnalyze_ReturnEqual()
         {
-            Assert.Pass();
+            Feet feet = new Feet(0);
+            double actual = feet.CheckForEqual();
+            Assert.AreEqual(0, actual);
         }
     }
 }
