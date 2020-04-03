@@ -262,5 +262,13 @@ namespace NUnitTesting
             bool result = fahreheit.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_FahrenheitFor_ReferenceCheck()
+        {
+            Fahreheit fahreheit = new Fahreheit();
+            bool result = fahreheit.Equals(fahreheit);
+            Assert.IsTrue(result);
+        }
     }
 }
