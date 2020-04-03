@@ -4,16 +4,39 @@
 // </copyright>
 // <creator name="Saad Shamim"/>
 //-----------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace QuantityMeasurement
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Text;
+
     /// <summary>
     /// Class for Converting Length
     /// </summary>
     public class LengthConversion
     {
+        private readonly string type;
+        private double value;
+
+        public LengthConversion()
+        {
+        }
+
+        public LengthConversion(string type, double value)
+        {
+            this.type = type;
+            this.value = value;
+        }
+
+        public double ConvertToFeet()
+        {
+            if (this.type == "Feet")
+            {
+                return this.value;
+            }
+
+            return default;
+        }
     }
 }

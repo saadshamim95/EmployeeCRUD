@@ -86,5 +86,13 @@ namespace NUnitTesting
             bool result = inch.Equals(new Inch());
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void GivenOneFeet_WhenCompare_WithOneFeet_ReturnEqual()
+        {
+            LengthConversion lengthConversion = new LengthConversion("Feet", 1);
+            double actual = lengthConversion.ConvertToFeet();
+            Assert.AreEqual(1, actual);
+        }
     }
 }
