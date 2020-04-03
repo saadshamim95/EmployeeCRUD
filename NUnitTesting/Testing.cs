@@ -78,5 +78,13 @@ namespace NUnitTesting
             bool result = inch.Equals(inch);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_InchFor_TypeCheck()
+        {
+            Inch inch = new Inch();
+            bool result = inch.Equals(new Inch());
+            Assert.IsTrue(result);
+        }
     }
 }
