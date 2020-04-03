@@ -28,5 +28,13 @@ namespace QuantityMeasurement
         {
             return this.fahrenheit;
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return true;
+
+            return false;
+        }
     }
 }

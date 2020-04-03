@@ -254,5 +254,13 @@ namespace NUnitTesting
             double actual = fahreheit.CheckForEqual();
             Assert.AreEqual(0, actual);
         }
+
+        [Test]
+        public void Testing_FahrenheitFor_NullCheck()
+        {
+            Fahreheit fahreheit = new Fahreheit();
+            bool result = fahreheit.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
