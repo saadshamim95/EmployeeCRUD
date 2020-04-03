@@ -38,5 +38,13 @@ namespace NUnitTesting
             bool result = feet.Equals(null);
             Assert.IsTrue(result);
         }
+
+        [Test]
+        public void Testing_FeetFor_ReferenceCheck()
+        {
+            Feet feet = new Feet();
+            bool result = feet.Equals(feet);
+            Assert.IsTrue(result);
+        }
     }
 }
