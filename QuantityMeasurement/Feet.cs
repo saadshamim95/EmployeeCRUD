@@ -1,9 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿//-----------------------------------------------------------------------
+// <copyright file="Feet.cs" company="BridgeLabz">
+//     Copyright © 2020 
+// </copyright>
+// <creator name="Saad Shamim"/>
+//-----------------------------------------------------------------------
 
 namespace QuantityMeasurement
 {
+    using System;
+
+    /// <summary>
+    /// Class Feet
+    /// </summary>
     public class Feet
     {
         private readonly double feet;
