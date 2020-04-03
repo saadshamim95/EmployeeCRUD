@@ -7,6 +7,7 @@
 
 namespace NUnitTesting
 {
+    using System;
     using NUnit.Framework;
     using QuantityMeasurement;
 
@@ -285,6 +286,14 @@ namespace NUnitTesting
             TemperatureConversion temperatureConversion = new TemperatureConversion("Celsius", 1);
             double actual = temperatureConversion.ConvertToCelsius();
             Assert.AreEqual(1, actual);
+        }
+
+        [Test]
+        public void GivenOneCelsius_WhenCompare_WithThirtyThreePointEightFahrenheit_ReturnEqual()
+        {
+            TemperatureConversion temperatureConversion = new TemperatureConversion("Celsius", 1);
+            double actual = Math.Round(temperatureConversion.ConvertToFahrenheit(), 1);
+            Assert.AreEqual(33.8, actual);
         }
     }
 }

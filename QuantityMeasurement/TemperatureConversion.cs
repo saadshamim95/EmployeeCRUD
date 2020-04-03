@@ -28,7 +28,22 @@ namespace QuantityMeasurement
 
         public double ConvertToCelsius()
         {
-            return this.value;
+            if (this.type == "Celsius")
+            {
+                return this.value;
+            }
+
+            return default; ;
+        }
+
+        public double ConvertToFahrenheit()
+        {
+            if (this.type == "Celsius")
+            {
+                return (1.8 * this.value + 32);   
+            }
+
+            return default;
         }
     }
 }
