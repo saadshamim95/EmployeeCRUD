@@ -126,5 +126,13 @@ namespace NUnitTesting
             double actual = gram.CheckForEqual();
             Assert.AreEqual(0, actual);
         }
+
+        [Test]
+        public void Testing_GramFor_NullCheck()
+        {
+            Gram gram = new Gram();
+            bool result = gram.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
