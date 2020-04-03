@@ -8,6 +8,7 @@
 namespace NUnitTesting
 {
     using NUnit.Framework;
+    using QuantityMeasurement;
 
     /// <summary>
     /// Class for Testing
@@ -22,10 +23,6 @@ namespace NUnitTesting
         {
         }
 
-        /// <summary>
-        /// 
-        /// </summary>
-        /// Test Case 1
         [Test]
         public void GivenZeroFeet_WhenAnalyze_ReturnEqual()
         {
