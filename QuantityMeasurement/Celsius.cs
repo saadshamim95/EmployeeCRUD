@@ -31,5 +31,13 @@ namespace QuantityMeasurement
         {
             return this.celsius;
         }
+
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+                return true;
+
+            return false;
+        }
     }
 }

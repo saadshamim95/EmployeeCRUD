@@ -222,5 +222,13 @@ namespace NUnitTesting
             double actual = celsius.CheckForEqual();
             Assert.AreEqual(0, actual);
         }
+
+        [Test]
+        public void Testing_CelsiusFor_NullCheck()
+        {
+            Celsius celsius = new Celsius();
+            bool result = celsius.Equals(null);
+            Assert.IsTrue(result);
+        }
     }
 }
