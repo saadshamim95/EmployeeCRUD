@@ -8,3 +8,5 @@ C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\obj\Debug\netcoreapp2.1\Mod
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\bin\Debug\netcoreapp2.1\Model.pdb
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\obj\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\obj\Debug\netcoreapp2.1\Model.csproj.CoreCompileInputs.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Model\obj\Debug\netcoreapp2.1\Model.genruntimeconfig.cache

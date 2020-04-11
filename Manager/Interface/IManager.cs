@@ -49,5 +49,7 @@ namespace Manager.Interface
         /// <param name="id">The identifier.</param>
         /// <returns>It return Employee with given Id.</returns>
         Employee GetEmployee(int id);
+
+        bool LoginEmployee(string email, string password);
     }
 }

@@ -13,3 +13,5 @@ C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\bin\Debug\netcoreapp2.1\R
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\bin\Debug\netcoreapp2.1\Model.pdb
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\bin\Debug\netcoreapp2.1\Repository.pdb
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CopyComplete
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CoreCompileInputs.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Manager\obj\Debug\netcoreapp2.1\Manager.genruntimeconfig.cache

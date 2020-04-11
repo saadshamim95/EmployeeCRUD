@@ -11,3 +11,5 @@ C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\bin\Debug\netcoreapp2.
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CopyComplete
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\obj\Debug\netcoreapp2.1\Repository.dll
 C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\obj\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\obj\Debug\netcoreapp2.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\Saad Shamim\source\repos\EmployeeCRUD\Repository\obj\Debug\netcoreapp2.1\Repository.genruntimeconfig.cache

@@ -111,5 +111,25 @@ namespace EmployeeCRUD.Controllers
         {
             return this.manager.GetAllEmployees();
         }
+
+        /// <summary>
+        /// Logins the employee.
+        /// </summary>
+        /// <param name="employeeChanges">The employee changes.</param>
+        /// <returns>It return</returns>
+        [Route("Login")]
+        [HttpPost]
+        public IActionResult LoginEmployee(Employee employee)
+        {
+            var result = this.manager.LoginEmployee(employee.Email, employee.Password);
+            if (result == true)
+            {
+                return this.Ok(employee.Email);
+            }
+            else
+            {
+                return this.BadRequest();
+            }
+        }
     }
 }

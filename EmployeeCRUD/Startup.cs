@@ -77,6 +77,8 @@ namespace EmployeeCRUD
             }
 
             app.UseHttpsRedirection();
+            //app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseMvc();
         }
     }
