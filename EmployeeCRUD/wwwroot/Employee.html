@@ -1,0 +1,65 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <title>Home</title>
+</head>
+<body>
+    <button class=" fa fa-user-plus btn btn-primary" id="employeebtn">Add Employee</button>
+    <div class="container">
+        <p class="text-white display-4" id="record" style="display:none"> NO RECORD FOUND !!</p>
+    </div>
+    <div class="container">
+        <table class="table table-hover bg-light">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Mobile</th>
+                    <th>Password</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+            </tbody>
+        </table>
+    </div>
+    <script>
+           var xHttp = new XMLHttpRequest();
+           xHttp.open("GET", 'https://localhost:44326/api/employee/GetAllEmployee');
+           xHttp.onload = function () {
+               // console.log(xHttp.responseText);
+               var data = JSON.parse(xHttp.responseText);
+               if (data == null) {
+                   document.getElementById("record").style.display=="block";
+               }
+               console.log(data);
+               var html = "";
+               for (var a = 0; a < data.length; a++) {
+                   var email = data[a].email;
+                   var password = data[a].password;
+                   var mobile = data[a].mobile;
+                   var address = data[a].address;
+                   html += "<tr>";
+                   html += "<td>" + email + "</td>";
+                   html += "<td>" + password + "</td>";
+                   html += "<td>" + mobile + "</td>";
+                   html += "<td>" + address + "</td>";
+                   html += `<td><button class="fa fa-user-times btn btn-primary"></button></td>`;
+                   html += `<td><button class="fas fa-trash-alt btn btn-danger"></button></td>`;
+                   html += "</tr>";
+               }
+               document.getElementById("data").innerHTML += html;
+           }
+
+           xHttp.send();
+
+    </script>
+</body>
+</html>
