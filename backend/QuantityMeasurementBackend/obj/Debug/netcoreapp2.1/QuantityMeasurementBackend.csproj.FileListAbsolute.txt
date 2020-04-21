@@ -13,4 +13,11 @@ C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Quantit
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.dll
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.pdb
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.genruntimeconfig.cache
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Manager.dll
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Manager.pdb
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.csproj.CopyComplete
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.csproj.CoreCompileInputs.cache

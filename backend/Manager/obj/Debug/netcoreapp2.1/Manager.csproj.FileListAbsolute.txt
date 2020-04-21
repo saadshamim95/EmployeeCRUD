@@ -10,3 +10,8 @@ C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\obj\Debug\netcoreapp2.1\Manager.dll
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\obj\Debug\netcoreapp2.1\Manager.pdb
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\obj\Debug\netcoreapp2.1\Manager.genruntimeconfig.cache
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\bin\Debug\netcoreapp2.1\Model.dll
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\bin\Debug\netcoreapp2.1\Repository.dll
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\bin\Debug\netcoreapp2.1\Model.pdb
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\bin\Debug\netcoreapp2.1\Repository.pdb
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Manager\obj\Debug\netcoreapp2.1\Manager.csproj.CopyComplete
