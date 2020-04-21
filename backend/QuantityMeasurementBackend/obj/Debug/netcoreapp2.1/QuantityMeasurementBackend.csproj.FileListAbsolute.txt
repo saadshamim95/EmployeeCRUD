@@ -5,7 +5,6 @@ C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Quantit
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\QuantityMeasurementBackend.dll
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\bin\Debug\netcoreapp2.1\QuantityMeasurementBackend.pdb
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.csprojAssemblyReference.cache
-C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.csproj.CoreCompileInputs.cache
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.RazorAssemblyInfo.cache
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.RazorAssemblyInfo.cs
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.AssemblyInfoInputs.cache
@@ -14,3 +13,4 @@ C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Quantit
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.dll
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.pdb
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.genruntimeconfig.cache
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\obj\Debug\netcoreapp2.1\QuantityMeasurementBackend.csproj.CoreCompileInputs.cache
