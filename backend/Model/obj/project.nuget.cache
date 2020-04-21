@@ -1,16 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "jf29TqsMOuaE0cOzxsOhfsTrPwmjjXHKl24JjuNiQSiLguxU1pEjOnB7z5B0W76SaArtVl/cR4pc2DEYDngIiw==",
+  "dgSpecHash": "o63C+EQZiXYvi7eEIFviuVDHqkeCU9pg0QoWdgPXZwG/YUDVvtlVXCQpEdGmdtWr0B5CwU3omVSVJL8COIPkkg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Saad Shamim\\source\\repos\\Quantity Measurement FullStack\\backend\\Model\\Model.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.app\\2.1.0\\microsoft.netcore.app.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.1.0\\microsoft.netcore.dotnetapphost.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.1.0\\microsoft.netcore.dotnethostpolicy.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.1.0\\microsoft.netcore.dotnethostresolver.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.0\\microsoft.netcore.platforms.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.targets\\2.1.0\\microsoft.netcore.targets.2.1.0.nupkg.sha512",
-    "C:\\Users\\Saad Shamim\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
   ],
   "logs": []
 }
