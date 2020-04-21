@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QRyM42YpcUzac32Z4b5LVFXvtW7Yba5gq3hnYkxo7MGXrBART4uz2jnzBmNruUj3YH02UhtIJT+7uX5AJ/oMAg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Saad Shamim\\source\\repos\\Quantity Measurement FullStack\\backend\\Repository\\Repository.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\Saad Shamim\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
