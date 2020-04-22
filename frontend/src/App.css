@@ -6,13 +6,120 @@
   height: 40vmin;
   pointer-events: none;
 }
+.formula-label{
+  border: 1px solid black;
+    height: 26px;
+    width: 63px;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: floralwhite;
+    background: black;
+    font-family: cursive;
+    margin-top: 3px;
+    margin-left: 141px;
 
+}
+.arrow-div{
+  position: absolute;
+    left: 373px;
+    top: 332px;
+    font-size: 26px;
+    color: #adb5bd;
+}
+.p-label{
+  margin-left: -154px;
+  margin-top: 51px;
+  font-family: cursive;
+  font-size: 19px;
+  color: #FFF;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.heading{
+  position: absolute;
+    top: 139px;
+    left: 635px;
+    font-size: 26px;
+    font-family: fantasy;
+    padding-right: 7px;
+    padding-bottom: 2px;
+    box-shadow: 3px 5px dimgrey;
+}
+.main-div{
+  position: absolute;
+  top: 187px;
+    left: 260px;
+    height: 400px;
+    width: 790px;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color:  rgba(37, 150, 0, 0.2);
+    padding: 10px;
+    box-shadow: 20px 17px #888888;
+}
+.form{
+  position: absolute;
+  top: 13px;
+  left: 50px;
+}
+.equals-icon{
+  font-size: 32px;
+  color: #adb5bd;
+}
+.equals-div{
+  position: absolute;
+  left: 370px;
+  top: 134px;
+}
+.value-type{
+  height: 27px;
+  display: flex;
+  width: 250px;
+  background-color: #495057;
+  border: 1px double darkgray;
+  border-radius: 3px;
+  color: floralwhite;
+  font-family: cursive;
+}
+.label{
+  display: flex;
+    margin-top: 302px;
+    margin-left: 202px;
+}
+.input-field{
+  height: 60px;
+  width: 250px;
+  border-radius: 1px;
+  text-align: center;
+    font-size: 25px;
+    font-family: cursive;
+    background: black;
+    color: #28a745;
+    margin-top: 22px;
+}
+.input-div-left{
+  position: absolute;
+  left: 64px;
+  top: 102px;
+}
+.input-div-right{
+  position: absolute;
+  left: 460px;
+  top: 102px;
+}
+.select-bar{
+  width: 680px;
+  height: 29px;
+  background-color: black;
+  border: 1px solid gray;
+  border-radius: 3px;
+  color: floralwhite;
+    font-family: cursive;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

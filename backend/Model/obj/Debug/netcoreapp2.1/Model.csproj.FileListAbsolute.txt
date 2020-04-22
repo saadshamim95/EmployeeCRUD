@@ -9,3 +9,4 @@ C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Model\o
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Model\obj\Debug\netcoreapp2.1\Model.dll
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Model\obj\Debug\netcoreapp2.1\Model.pdb
 C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Model\obj\Debug\netcoreapp2.1\Model.genruntimeconfig.cache
+C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\Model\obj\Debug\netcoreapp2.1\Model.csprojAssemblyReference.cache
