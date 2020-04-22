@@ -19,13 +19,13 @@ export default class QuantityUI extends Component {
     unitTypeHandler = async (event)=>{
         const type = event.target.value;
         console.log(type);
-        if(type == "Length")
+        if(type === "Length")
         {
             await this.setState({
                 showType : true
             })
         }
-        else if(type == "Weight")
+        else if(type === "Weight")
         {
             await this.setState({
                 showType : false

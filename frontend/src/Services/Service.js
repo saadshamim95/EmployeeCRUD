@@ -4,7 +4,7 @@ const feetToInchURL = 'https://localhost:44318/api/Conversion/FeetToInch';
 const inchToFeetURL = 'https://localhost:44318/api/Conversion/InchToFeet';
 const meterToCentimeterURL = 'https://localhost:44318/api/Conversion/MeterToCentimeter';
 const centimeterToMeterURL = 'https://localhost:44318/api/Conversion/CentimeterToMeter';
-const kgToGmURL = 'https://localhost:44318/api/Conversion/KgtTGm';
+const kgToGmURL = 'https://localhost:44318/api/Conversion/KgToGm';
 const gmToKgURL = 'https://localhost:44318/api/Conversion/GmToKg';
 
 export async function feetToInch(data){
