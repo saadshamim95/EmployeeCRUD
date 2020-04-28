@@ -10,6 +10,7 @@ namespace QuantityMeasurementBackend
     using Manager.Interface;
     using Microsoft.AspNetCore.Mvc;
     using Model;
+    using QuantityMeasurementBackend.MSMQ;
 
     /// <summary>
     /// Controller Class
@@ -23,6 +24,8 @@ namespace QuantityMeasurementBackend
         /// The manager
         /// </summary>
         private IManager manager;
+
+        Messaging messaging = new Messaging();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ConversionController"/> class.
@@ -45,6 +48,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.FeetToInch(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Inch: ", result);
                 return this.Ok(result);
             }
 
@@ -63,6 +67,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.InchToFeet(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Feet: ", result);
                 return this.Ok(result);
             }
 
@@ -81,6 +86,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.MeterToCentimeter(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Centimeter: ", result);
                 return this.Ok(result);
             }
 
@@ -99,6 +105,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.CentimeterToMeter(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Meter: ", result);
                 return this.Ok(result);
             }
 
@@ -117,6 +124,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.KilogramToGram(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Gram: ", result);
                 return this.Ok(result);
             }
 
@@ -135,6 +143,7 @@ namespace QuantityMeasurementBackend
             var result = this.manager.GramToKilogram(value);
             if (result >= 0)
             {
+                messaging.SendMessage("Kilogram: ", result);
                 return this.Ok(result);
             }
 
