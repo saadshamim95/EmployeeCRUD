@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuantityMeasurementBackend.MSMQ
 {
-    public class MSMQ
+    public class Messaging
     {
         public void SendMessage(string message, decimal value)
         {
@@ -34,6 +34,34 @@ namespace QuantityMeasurementBackend.MSMQ
             }
         }
 
-
+        public void ReceiveMessage()
+        {
+            Messaging messaging = new Messaging();
+            MessageQueue messageQueue = null;
+            string myQueue = @".\Private$\myQueue";
+            try
+            {
+                messageQueue = new MessageQueue(myQueue);
+                Message[] message = messageQueue.GetAllMessages();
+                if (message.Length > 0)
+                {
+                    foreach (Message msg in message)
+                    {
+                        msg.Formatter = new XmlMessageFormatter(new string[] { "System.String,mscorlib" });
+                        string result = msg.Body.ToString();
+                        Console.WriteLine(result);
+                        messageQueue.Receive();
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("No Message");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
     }
 }
