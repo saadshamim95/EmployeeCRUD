@@ -9,6 +9,7 @@ namespace QuantityMeasurementBackend
 {
     using Microsoft.AspNetCore;
     using Microsoft.AspNetCore.Hosting;
+    using QuantityMeasurementBackend.MSMQ;
 
     /// <summary>
     /// Class Program
@@ -21,6 +22,9 @@ namespace QuantityMeasurementBackend
         /// <param name="args">The arguments.</param>
         public static void Main(string[] args)
         {
+            Messaging messaging = new Messaging();
+            messaging.ReceiveMessage();
+
             BuildWebHost(args).Run();
         }
 

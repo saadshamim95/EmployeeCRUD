@@ -1,6 +1,7 @@
 ﻿using Experimental.System.Messaging;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -36,7 +37,7 @@ namespace QuantityMeasurementBackend.MSMQ
 
         public void ReceiveMessage()
         {
-            Messaging messaging = new Messaging();
+            //Messaging messaging = new Messaging();
             MessageQueue messageQueue = null;
             string myQueue = @".\Private$\myQueue";
             try
@@ -50,6 +51,7 @@ namespace QuantityMeasurementBackend.MSMQ
                         msg.Formatter = new XmlMessageFormatter(new string[] { "System.String,mscorlib" });
                         string result = msg.Body.ToString();
                         Console.WriteLine(result);
+                        File.WriteAllText(@"C:\Users\Saad Shamim\source\repos\Quantity Measurement FullStack\backend\QuantityMeasurementBackend\Result.txt", result);
                         messageQueue.Receive();
                     }
                 }
