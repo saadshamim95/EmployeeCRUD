@@ -21,16 +21,19 @@ namespace QuantityMeasurementBackend
         /// <param name="args">The arguments.</param>
         public static void Main(string[] args)
         {
-            CreateWebHostBuilder(args).Build().Run();
+            BuildWebHost(args).Run();
         }
 
         /// <summary>
-        /// Creates the web host builder.
+        /// Builds the web host.
         /// </summary>
         /// <param name="args">The arguments.</param>
-        /// <returns>It returns Web host builder</returns>
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+        /// <returns></returns>
+        public static IWebHost BuildWebHost(string[] args) =>
+                WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
+                .UseIISIntegration()
+                    .UseStartup<Startup>()
+                    .Build();
     }
 }
