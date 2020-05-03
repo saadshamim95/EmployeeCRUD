@@ -11,6 +11,7 @@ namespace QuantityMeasurementBackend
     using Microsoft.AspNetCore.Mvc;
     using Model;
     using QuantityMeasurementBackend.MSMQ;
+    using Repository.Product;
 
     /// <summary>
     /// Controller Class
@@ -26,6 +27,7 @@ namespace QuantityMeasurementBackend
         private IManager manager;
 
         Messaging messaging = new Messaging();
+        RedisCache redisCache = new RedisCache();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="ConversionController"/> class.
@@ -34,6 +36,14 @@ namespace QuantityMeasurementBackend
         public ConversionController(IManager manager)
         {
             this.manager = manager;
+        }
+
+
+        [Route("RedisCache")]
+        [HttpGet]
+        public string GetRedisValue(string key)
+        {
+            return redisCache.RedisConnection(key);
         }
 
         /// <summary>

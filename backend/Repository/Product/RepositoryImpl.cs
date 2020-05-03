@@ -16,6 +16,8 @@ namespace Repository.Product
     /// <seealso cref="Repository.Interface.IRepository" />
     public class RepositoryImpl : IRepository
     {
+        RedisCache redisCache = new RedisCache();
+
         /// <summary>
         /// Centimeter to meter.
         /// </summary>
@@ -25,7 +27,9 @@ namespace Repository.Product
         /// </returns>
         public decimal CentimeterToMeter(Conversion value)
         {
-            return value.Centimeter / 100;
+            decimal result = value.Centimeter / 100;
+            redisCache.RedisConnection($"Centimeter", result.ToString());
+            return result;
         }
 
         /// <summary>
@@ -37,7 +41,9 @@ namespace Repository.Product
         /// </returns>
         public decimal FeetToInch(Conversion value)
         {
-            return value.Feet * 12;
+            decimal result = value.Feet * 12;
+            redisCache.RedisConnection($"Feet", result.ToString());
+            return result;
         }
 
         /// <summary>
@@ -49,7 +55,9 @@ namespace Repository.Product
         /// </returns>
         public decimal GramToKilogram(Conversion value)
         {
-            return value.Gram / 1000;
+            decimal result = value.Gram / 1000;
+            redisCache.RedisConnection($"Gram", result.ToString());
+            return result;
         }
 
         /// <summary>
@@ -61,7 +69,9 @@ namespace Repository.Product
         /// </returns>
         public decimal InchToFeet(Conversion value)
         {
-            return value.Inch / 12;
+            decimal result = value.Inch / 12;
+            redisCache.RedisConnection($"Inch", result.ToString());
+            return result;
         }
 
         /// <summary>
@@ -73,7 +83,9 @@ namespace Repository.Product
         /// </returns>
         public decimal KilogramToGram(Conversion value)
         {
-            return value.KiloGram * 1000;
+            decimal result = value.KiloGram * 1000;
+            redisCache.RedisConnection($"KiloGram", result.ToString());
+            return result;
         }
 
         /// <summary>
@@ -85,7 +97,9 @@ namespace Repository.Product
         /// </returns>
         public decimal MeterToCentimeter(Conversion value)
         {
-            return value.Meter * 100;
+            decimal result = value.Meter * 100;
+            redisCache.RedisConnection($"Meter", result.ToString());
+            return result;
         }
     }
 }

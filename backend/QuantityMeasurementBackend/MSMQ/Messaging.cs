@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace QuantityMeasurementBackend.MSMQ
 {
+    /// <summary>
+    /// CLass Messaging
+    /// </summary>
     public class Messaging
     {
+        /// <summary>
+        /// Sends the message.
+        /// </summary>
+        /// <param name="message">The message.</param>
+        /// <param name="value">The value.</param>
         public void SendMessage(string message, decimal value)
         {
             MessageQueue messageQueue = null;
@@ -35,9 +43,11 @@ namespace QuantityMeasurementBackend.MSMQ
             }
         }
 
+        /// <summary>
+        /// Receives the message.
+        /// </summary>
         public void ReceiveMessage()
         {
-            //Messaging messaging = new Messaging();
             MessageQueue messageQueue = null;
             string myQueue = @".\Private$\myQueue";
             try
@@ -63,6 +73,10 @@ namespace QuantityMeasurementBackend.MSMQ
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+            }
+            finally 
+            {
+                messageQueue.Dispose();
             }
         }
     }
